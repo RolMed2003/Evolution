@@ -1,0 +1,11 @@
+PAGINA
+
+url: 		https://remotemysql.com/login.php
+email: 		rolandomedinaxd@gmail.com
+contraseña: 	R1812L0309
+
+
+PHPMYADMIN
+
+username:	OIB9whRkqF
+password: 	VvQuZtyd6P
