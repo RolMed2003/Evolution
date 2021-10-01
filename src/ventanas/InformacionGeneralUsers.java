@@ -162,6 +162,11 @@ public class InformacionGeneralUsers extends javax.swing.JFrame {
         Nombre_Txt.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
         Nombre_Txt.setForeground(new java.awt.Color(204, 204, 204));
         Nombre_Txt.setEnabled(false);
+        Nombre_Txt.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                Nombre_TxtMouseExited(evt);
+            }
+        });
 
         Telefono_Lbl.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
         Telefono_Lbl.setForeground(new java.awt.Color(204, 204, 204));
@@ -297,7 +302,7 @@ public class InformacionGeneralUsers extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel3.setText("última modificación por:");
+        jLabel3.setText("Última modificación por:");
 
         UltimaMod_Txt.setBackground(new java.awt.Color(51, 51, 51));
         UltimaMod_Txt.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
@@ -320,7 +325,7 @@ public class InformacionGeneralUsers extends javax.swing.JFrame {
                             .addComponent(Registred_Lbl)
                             .addComponent(Username_Lbl)
                             .addComponent(jLabel3))
-                        .addGap(0, 167, Short.MAX_VALUE))
+                        .addGap(0, 165, Short.MAX_VALUE))
                     .addComponent(UltimaMod_Txt))
                 .addContainerGap())
         );
@@ -546,6 +551,10 @@ public class InformacionGeneralUsers extends javax.swing.JFrame {
         
         
     }//GEN-LAST:event_Aplicar_BtnActionPerformed
+
+    private void Nombre_TxtMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Nombre_TxtMouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Nombre_TxtMouseExited
 
     
     public static void main(String args[]) {

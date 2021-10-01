@@ -137,6 +137,9 @@
             </Property>
             <Property name="enabled" type="boolean" value="false"/>
           </Properties>
+          <Events>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Nombre_TxtMouseExited"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="Telefono_Lbl">
           <Properties>
@@ -312,7 +315,7 @@
                               <Component id="Username_Lbl" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace min="0" pref="167" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="165" max="32767" attributes="0"/>
                       </Group>
                       <Component id="UltimaMod_Txt" alignment="0" max="32767" attributes="0"/>
                   </Group>
@@ -428,7 +431,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="cc" green="cc" red="cc" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="&#xfa;ltima modificaci&#xf3;n por:"/>
+            <Property name="text" type="java.lang.String" value="&#xda;ltima modificaci&#xf3;n por:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="UltimaMod_Txt">
