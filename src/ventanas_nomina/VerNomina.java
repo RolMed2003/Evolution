@@ -62,7 +62,6 @@ public class VerNomina extends javax.swing.JFrame {
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
-        HorasExtras_Txt = new javax.swing.JTextField();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
@@ -161,15 +160,6 @@ public class VerNomina extends javax.swing.JFrame {
         jLabel12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
         jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 150, 100, 80));
 
-        HorasExtras_Txt.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        HorasExtras_Txt.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        HorasExtras_Txt.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyReleased(java.awt.event.KeyEvent evt) {
-                HorasExtras_TxtKeyReleased(evt);
-            }
-        });
-        jPanel1.add(HorasExtras_Txt, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 180, 60, -1));
-
         jLabel13.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(204, 204, 204));
         jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -221,12 +211,6 @@ public class VerNomina extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void HorasExtras_TxtKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_HorasExtras_TxtKeyReleased
-        
-        IngresosHE_Txt.setText(HorasExtras_Txt.getText());
-                
-    }//GEN-LAST:event_HorasExtras_TxtKeyReleased
-
     
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -264,7 +248,6 @@ public class VerNomina extends javax.swing.JFrame {
     private javax.swing.JLabel Buscar_Lbl;
     private javax.swing.JTextField Buscar_Txt;
     private javax.swing.JLabel Fondo_Lbl;
-    private javax.swing.JTextField HorasExtras_Txt;
     private javax.swing.JLabel IngresosHE_Txt;
     private javax.swing.JLabel IngresosHE_Txt1;
     private javax.swing.JLabel IngresosHE_Txt2;

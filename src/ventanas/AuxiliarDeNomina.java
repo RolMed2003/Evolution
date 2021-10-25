@@ -10,6 +10,7 @@ import metodos.WindowTool;
 import ventanas_nomina.AddEmpleado;
 import ventanas_nomina.ManageEmp;
 import ventanas_nomina.SalarioBase;
+import ventanas_nomina.VerNomina;
         
 
 public class AuxiliarDeNomina extends javax.swing.JFrame {
@@ -345,7 +346,7 @@ public class AuxiliarDeNomina extends javax.swing.JFrame {
 
     private void VerNomina_BtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VerNomina_BtnActionPerformed
         
-        
+        new VerNomina().setVisible(true);
         
     }//GEN-LAST:event_VerNomina_BtnActionPerformed
 
