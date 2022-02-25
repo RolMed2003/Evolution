@@ -8,7 +8,7 @@ public class Conexion {
         
         try{
             
-            Connection cn = DriverManager.getConnection("jdbc:mysql://remotemysql.com:3306/OIB9whRkqF", "OIB9whRkqF", "VvQuZtyd6P");
+            Connection cn = DriverManager.getConnection("", "", "");
             
             return cn;
             
